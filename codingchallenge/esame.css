@@ -1,0 +1,58 @@
+img {
+  height: 100px;
+  width: 210px;
+}
+
+.logo {
+  color:rgb(0, 200, 0); limegreen;
+}
+
+nav {
+  background-color:rgb(0, 200, 0); limegreen;
+  padding: 8px;
+
+}
+
+body {
+  font-family: Arial;
+  background-image: url(background.jpg);
+}
+
+.rettangolo1 {
+  width: 400px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.rettangolo2 {
+  width: 800px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.rettangolo3 {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.contenitore {
+  width: 1000px;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.freccette::before {
+  content: ' \00BB';
+}
+
+main > div {
+  color: white;
+}
+
+.Gino1 {
+  padding-top: 5px;
+}
